@@ -35,7 +35,7 @@ relevantes sobre o progresso dos estagiários.
 
 ## Avanços
 
-### 2025-01-06
+### 2025-01-08
 - **Atividades Realizadas**:
   - Início da pesquisa de mercado sobre plataformas similares.
   - Identificação de possíveis diferenciais para a plataforma:

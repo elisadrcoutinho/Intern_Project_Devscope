@@ -111,7 +111,7 @@
   Tipo: Checklist (Técnica, Comunicação, Gestão de Tempo)  
   Variável: dificuldades_areas
 
-# Questões Estagiários
+# Questões Tutor
 
 - **Pergunta 1**: O estagiário cumpriu as metas e expectativas estabelecidas para o dia?  
   Tipo: Boolean (Sim/Não)  

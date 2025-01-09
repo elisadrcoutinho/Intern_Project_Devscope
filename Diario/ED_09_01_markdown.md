@@ -66,6 +66,56 @@ relevantes sobre o progresso dos estagiários.
 - **Soluções Implementadas**:
   - Organização das perguntas por tópicos e categorização das variáveis associadas para facilitar futuras revisões.
 
+## Próximos Passos
+
+1. **Definir as Métricas com a Área de Negócios**:
+   - Identificar as métricas de desempenho que serão mais relevantes para avaliar o progresso do estagiário, tutor e do programa de estágio como um todo.
+   - Exemplos de métricas a considerar:
+     - Desempenho do estagiário (ex.: número de tarefas concluídas, evolução das habilidades).
+     - Qualidade do feedback (ex.: feedback positivo vs. negativo, tempo de resposta).
+     - Engajamento na comunicação e autonomia.
+   - Garantir que as métricas definidas sejam mensuráveis, alcançáveis e alinhadas aos objetivos do negócio.
+   
+3. **Modelagem de Dados**:
+   - **Definir a estrutura do banco de dados**:
+     - Escolher o tipo de banco de dados mais adequado, levando em consideração os requisitos para integração com Power BI.
+     - Criar um modelo de dados que inclua tabelas relacionadas aos estagiários, tutores, feedbacks, habilidades técnicas e comportamentais, interações, gamificação e pontos.
+   - **Planejar o esquema de dados**:
+     - Definir os tipos de dados e os relacionamentos entre as tabelas.
+     - Planejar as chaves primárias e estrangeiras para garantir a integridade dos dados.
+     - Considerar a estrutura necessária para garantir que os dados sejam facilmente exportáveis e compatíveis com o Power BI.
+
+4. **Criação de Dados Fictícios**:
+   - Criar um dataset fictício que simule os dados reais necessários para as análises.
+   - Garantir que o dataset cubra todas as variáveis que serão utilizadas nas análises 
+   - Criar dados com uma variedade de cenários para garantir que a análise seja robusta, incluindo diferentes tipos de feedback, tarefas realizadas, níveis de autonomia e comunicação.
+   - Garantir que os dados estejam em um formato adequado para a integração com o Power BI.
+
+5. **Exploração do Dataset**:
+   - Analisar o dataset fictício criado, realizar a limpeza e pré-processamento dos dados.
+   - Explorar as variáveis e características dos dados para entender as relações entre elas.
+   - Verificar a qualidade dos dados e tratar possíveis valores ausentes, outliers e inconsistências.
+
+6. **Análise Exploratória de Dados (EDA)**:
+   - Realizar a análise exploratória de dados para descobrir padrões, tendências e insights importantes.
+   - Gerar estatísticas descritivas para cada variável, como médias, medianas e desvios padrões.
+   - Investigar a correlação entre variáveis para identificar possíveis relações significativas.
+
+7. **Seleção dos Melhores Gráficos e Visualizações**:
+   - Identificar os tipos de gráficos mais adequados para as variáveis e os insights a serem comunicados.
+   - Criar visualizações interativas que ajudem a contar a história dos dados, facilitando a compreensão das métricas.
+   - Explorar o uso de dashboards para consolidar as visualizações e facilitar a análise contínua.
+
+8. **Criação de Dashboards**:
+   - Desenvolver dashboards no Power BI ou outras ferramentas que permitam uma visualização clara e intuitiva dos dados.
+   - Integrar gráficos e indicadores de performance (KPIs) que ajudem na análise do desempenho dos estagiários, feedbacks, e progresso da gamificação.
+
+9. **Automatização de Relatórios**:
+   - Estudar técnicas para automatizar a geração de relatórios baseados nos dados analisados, garantindo que as atualizações de dados sejam refletidas automaticamente nos relatórios.
+   - Implementar a geração periódica de relatórios, incluindo insights sobre o desempenho dos estagiários, feedbacks recebidos, evolução das metas, etc.
+
+
+
 
 ```python
 

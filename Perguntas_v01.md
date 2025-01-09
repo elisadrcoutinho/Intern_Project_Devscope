@@ -2,7 +2,7 @@
 
 ## Habilidades Técnicas
 
-- **Pergunta**: Quantas tarefas planejou concluir hoje?  
+- **Pergunta**: Quantas tarefas planeou concluir hoje?  
   Tipo: Campo numérico  
   Variável: tarefas_planejadas
 

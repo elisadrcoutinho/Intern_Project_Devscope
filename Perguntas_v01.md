@@ -4,7 +4,7 @@
 
 - **Pergunta**: Quantas tarefas planeou concluir hoje?  
   Tipo: Campo numérico  
-  Variável: tarefas_planejadas
+  Variável: tarefas_planeadas
 
 - **Pergunta**: Quantas tarefas conseguiu concluir hoje?  
   Tipo: Campo numérico  
@@ -62,7 +62,7 @@
   Variável: frequencia_comunicacao
 
 - **Pergunta**: A comunicação com a equipa/tutor foi clara e eficiente?  
-  Tipo: Escala de Likert (1 a 5)  
+  Tipo: Boolean (Sim/Não)  
   Variável: qualidade_comunicacao
 
 - **Pergunta**: O que motivou a comunicação com a equipa/tutor?  

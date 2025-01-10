@@ -58,7 +58,9 @@
   Variável: frequencia_comunicacao
 
 - **Pergunta 14**: A comunicação com a equipa/tutor foi clara e eficiente?  
-  Tipo: Escala de Likert (1 a 5)  
+  Tipo: Checkbox (Excelente: Sempre clara e eficiente, Boa: Geralmente clara e 
+  eficiente, Regular: Ocasionalmente confusa ou ineficaz,Fraca: Frequentemente confusa
+  ou ineficaz)  
   Variável: qualidade_comunicacao
 
 - **Pergunta 15**: O que motivou a comunicação com a equipa/tutor?  

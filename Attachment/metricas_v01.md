@@ -92,10 +92,11 @@
 - **Pergunta 14 (qualidade_comunicacao):**  
   Avaliar se a comunicação é eficiente.  
   **Qualidade da comunicação:**  
-  - **Excelente:** Sempre clara e eficiente  
-  - **Boa:** Geralmente clara e eficiente  
-  - **Regular:** Ocasionalmente confusa ou ineficaz  
-  - **Fraca:** Frequentemente confusa ou ineficaz  
+  **Atingimento de metas:**  
+  - **Excelente:** 90%-100%  
+  - **Bom:** 70%-89%  
+  - **Suficiente:** 50%-69%  
+  - **Fraca:** <50%  
   **Alerta:** Baixa pontuação contínua.
 
 - **Pergunta 15 (motivo_comunicacao):**  

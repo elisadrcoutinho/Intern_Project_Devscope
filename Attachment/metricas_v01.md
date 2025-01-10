@@ -2,7 +2,12 @@
 
 ### **Métrica: Produtividade e Planejamento**
 - **Pergunta 1 (tarefas_planeadas) e Pergunta 2 (tarefas_concluidas):** 
-  Cálculo de eficiência (% de tarefas concluídas em relação ao planejado).  
+  Cálculo de eficiência (% de tarefas concluídas em relação ao planejado). 
+  - **Eficiência (% de tarefas concluídas em relação ao planejado):**  
+  - Excelente: 90%-100%  
+  - Bom: 70%-89%  
+  - Suficiente: 50%-69%  
+  - Insuficiente: <50%  
   **Alerta:** Gerar avisos para baixa eficiência contínua.
 
 ### **Métrica: Planejamento x Execução**
@@ -90,7 +95,9 @@
   Indicador de engajamento e interesse do estagiário.
 
 
-  # Ranking Geral de Desempenho
+
+
+# Ranking Geral de Desempenho
 
 ### **Métrica: Ranking de Estagiários**
 O ranking geral será calculado com base na pontuação agregada de todas as métricas de avaliação. Cada métrica terá um peso configurável para refletir sua importância relativa no desempenho do estagiário.
@@ -99,5 +106,3 @@ O ranking geral será calculado com base na pontuação agregada de todas as mé
 - **Fórmula Geral:**  
   **Pontuação Total = (Produtividade * Peso_Produtividade) + (Comunicação * Peso_Comunicação) + (Autonomia * Peso_Autonomia) + (Satisfação * Peso_Satisfação) + (Avaliação do Tutor * Peso_Tutor)**
 
-- Cada métrica individual será normalizada para uma escala de 0 a 100.  
-  Exemplo: % de tarefas concluídas, frequência de comunicação, etc.

@@ -59,7 +59,7 @@
 
 - **Pergunta 14**: A comunicação com a equipa/tutor foi clara e eficiente?  
   Tipo: Checkbox (Excelente: Sempre clara e eficiente, Boa: Geralmente clara e 
-  eficiente, Regular: Ocasionalmente confusa ou ineficaz,Fraca: Frequentemente confusa
+  eficiente, Regular: Ocasionalmente confusa ou ineficaz, Fraca: Frequentemente confusa
   ou ineficaz)  
   Variável: qualidade_comunicacao
 

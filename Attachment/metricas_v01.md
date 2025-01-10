@@ -88,3 +88,16 @@
   **Alerta:** Falta de evolução.
 - **Pergunta 6 (proatividade_interesse_tutor):** 
   Indicador de engajamento e interesse do estagiário.
+
+
+  # Ranking Geral de Desempenho
+
+### **Métrica: Ranking de Estagiários**
+O ranking geral será calculado com base na pontuação agregada de todas as métricas de avaliação. Cada métrica terá um peso configurável para refletir sua importância relativa no desempenho do estagiário.
+
+### **Cálculo da Pontuação:**
+- **Fórmula Geral:**  
+  **Pontuação Total = (Produtividade * Peso_Produtividade) + (Comunicação * Peso_Comunicação) + (Autonomia * Peso_Autonomia) + (Satisfação * Peso_Satisfação) + (Avaliação do Tutor * Peso_Tutor)**
+
+- Cada métrica individual será normalizada para uma escala de 0 a 100.  
+  Exemplo: % de tarefas concluídas, frequência de comunicação, etc.

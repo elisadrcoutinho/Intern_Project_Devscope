@@ -2,7 +2,7 @@
 
 ## Habilidades Técnicas
 
-- **Pergunta 1**: Quantas tarefas plane0ou concluir hoje?  
+- **Pergunta 1**: Quantas tarefas planeou concluir hoje?  
   Tipo: Campo numérico  
   Variável: tarefas_planeadas
 
@@ -34,10 +34,6 @@
   Tipo: Checkbox (C#, Python, JavaScript, SQL, React, Angular, Django, PowerBI, Tableau, Docker, Git, Jira, Outro)  
   Variável: habilidades_tec_melhorar
 
-
-
-
-  
 
 ## Habilidades Comportamentais
 - **Pergunta 9**: Quais habilidades comportamentais aplicou mais hoje?  

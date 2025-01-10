@@ -2,7 +2,7 @@
 
 ## Habilidades Técnicas
 
-- **Pergunta 1**: Quantas tarefas planeou concluir hoje?  
+- **Pergunta 1**: Quantas tarefas plane0ou concluir hoje?  
   Tipo: Campo numérico  
   Variável: tarefas_planeadas
 
@@ -23,15 +23,15 @@
   Variável: metas_atingidas
 
 - **Pergunta 6**: Quais habilidades técnicas utilizou hoje?  
-  Tipo: Checklist (C#, Python, JavaScript, SQL, React, Angular, Django, PowerBI, Tableau, Docker, Git, Jira, Outro)  
+  Tipo: Checkbox (C#, Python, JavaScript, SQL, React, Angular, Django, PowerBI, Tableau, Docker, Git, Jira, Outro)  
   Variável: habilidades_tec_uso
 
 - **Pergunta 7**: Quais habilidades técnicas considera que desenvolveu mais hoje?  
-  Tipo: Checklist (C#, Python, JavaScript, SQL, React, Angular, Django, PowerBI, Tableau, Docker, Git, Jira, Outro)  
+  Tipo: Checkbox (C#, Python, JavaScript, SQL, React, Angular, Django, PowerBI, Tableau, Docker, Git, Jira, Outro)  
   Variável: habilidades_tec_desenvolvidas
 
 - **Pergunta 8**: Quais habilidades técnicas considera que precisa melhorar?  
-  Tipo: Checklist (C#, Python, JavaScript, SQL, React, Angular, Django, PowerBI, Tableau, Docker, Git, Jira, Outro)  
+  Tipo: Checkbox (C#, Python, JavaScript, SQL, React, Angular, Django, PowerBI, Tableau, Docker, Git, Jira, Outro)  
   Variável: habilidades_tec_melhorar
 
 
@@ -41,15 +41,15 @@
 
 ## Habilidades Comportamentais
 - **Pergunta 9**: Quais habilidades comportamentais aplicou mais hoje?  
-  Tipo: Checklist (Comunicação, Resolução de problemas, Trabalho em equipa, Adaptabilidade, Gestão de Tempo)  
+  Tipo: Checkbox (Comunicação, Resolução de problemas, Trabalho em equipa, Adaptabilidade, Gestão de Tempo)  
   Variável: habilidades_comportamentais_uso
 
 - **Pergunta 10**: Qual habilidade comportamental considera que mais desenvolveu hoje?  
-  Tipo: Checklist (Comunicação, Resolução de problemas, Trabalho em equipa, Adaptabilidade, Gestão de Tempo)  
+  Tipo: Checkbox (Comunicação, Resolução de problemas, Trabalho em equipa, Adaptabilidade, Gestão de Tempo)  
   Variável: habilidades_comportamentais_desenvolvidas
 
 - **Pergunta 11**: Quais habilidades comportamentais considera que precisa melhorar?  
-  Tipo: Checklist (Comunicação, Resolução de problemas, Trabalho em equipa, Adaptabilidade, Gestão de Tempo)  
+  Tipo: Checkbox (Comunicação, Resolução de problemas, Trabalho em equipa, Adaptabilidade, Gestão de Tempo)  
   Variável: habilidades_comportamentais_melhorar
 
 ## Comunicação
@@ -58,15 +58,15 @@
   Variável: comunicacao_equipa
 
 - **Pergunta 13**: Se sim, qual foi a frequência das suas interações?  
-  Tipo: Checklist (Nenhuma interação, Poucas interações, Interações moderadas, Muitas interações)  
+  Tipo: Checkbox (Nenhuma interação, Poucas interações, Interações moderadas, Muitas interações)  
   Variável: frequencia_comunicacao
 
 - **Pergunta 14**: A comunicação com a equipa/tutor foi clara e eficiente?  
-  Tipo: Boolean (Sim/Não)  
+  Tipo: Escala de Likert (1 a 5)  
   Variável: qualidade_comunicacao
 
 - **Pergunta 15**: O que motivou a comunicação com a equipa/tutor?  
-  Tipo: Checklist (Tirar dúvidas, Reportar bug, Solicitar feedback, Ajudar a equipa, Outros)  
+  Tipo: Checkbox (Tirar dúvidas, Reportar bug, Solicitar feedback, Ajudar a equipa, Outros)  
   Variável: motivo_comunicacao
 
 ## Autonomia
@@ -108,7 +108,7 @@
   Variável: dificuldades_encontradas
 
 - **Pergunta 25**: Se sim, em quais áreas encontrou dificuldades?  
-  Tipo: Checklist (Técnica, Comunicação, Gestão de Tempo)  
+  Tipo: Checkbox (Técnica, Comunicação, Gestão de Tempo)  
   Variável: dificuldades_areas
 
 # Questões Tutor

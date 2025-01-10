@@ -18,7 +18,7 @@ relevantes sobre o progresso dos estagiários.
 3. Garantir compatibilidade com dispositivos desktop e mobile.
 4. Pesquisar plataformas similares no mercado e propor inovações que se destaquem.
 5. Implementar integração com Power BI para gerar relatórios automatizados
-6.	Desenvolver ferramentas automatizada geração de reports, monitorização contínua do desempenho e envio de alertas quando o desempenho estiver abaixo da métricas estabelecidas.
+6.	Desenvolver ferramentas automatizadas de geração de reports, monitorização contínua do desempenho e envio de alertas quando o desempenho estiver abaixo da métricas estabelecidas.
 
 ## Metodologia
 

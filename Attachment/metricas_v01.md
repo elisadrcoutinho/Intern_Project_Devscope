@@ -48,13 +48,15 @@
   - **Frequentemente:** 70%-89%  
   - **Ocasionalmente:** 50%-69%  
   - **Raramente:** <50%  
-  - **habilidades_tec_desenvolvidas:** Monitorar habilidades em desenvolvimento.  
+  - 
+  **habilidades_tec_desenvolvidas:** Monitorar habilidades em desenvolvimento.  
   **Desenvolvimento de habilidades técnicas:**  
   - **Muito Bom:** Relata consistentemente novos aprendizados  
   - **Bom:** Relata aprendizados ocasionais  
   - **Suficiente:** Relata poucos aprendizados  
   - **Insuficiente:** Relata ausência de aprendizado  
-  - **habilidades_tec_melhorar:** Identificar lacunas no conhecimento técnico.
+  - 
+  **habilidades_tec_melhorar:** Identificar lacunas no conhecimento técnico.
 
 ---
 
@@ -68,13 +70,17 @@
   - **Frequentemente:** 70%-89%  
   - **Ocasionalmente:** 50%-69%  
   - **Raramente:** <50%  
-  - **habilidades_comportamentais_desenvolvidas:** Áreas de desenvolvimento comportamental mais relatadas.  
+  
+
+  **habilidades_comportamentais_desenvolvidas:** Áreas de desenvolvimento comportamental mais relatadas.  
   **Desenvolvimento de habilidades comportamentais:**  
   - **Muito Bom:** Relata consistentemente novos aprendizados  
   - **Bom:** Relata aprendizados ocasionais  
   - **Suficiente:** Relata poucos aprendizados  
   - **Insuficiente:** Relata ausência de aprendizado  
-  - **habilidades_comportamentais_melhorar:** Pontos de atenção para treinamentos comportamentais.
+  - 
+  
+  **habilidades_comportamentais_melhorar:** Pontos de atenção para treinamentos comportamentais.
 
 ---
 

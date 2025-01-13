@@ -33,7 +33,7 @@ relevantes sobre o progresso dos estagiários.
 	•	Estabelecer métricas de desempenho: Trabalhar com a área de negócios para definir métricas claras que serão usadas para monitoramento e relatórios.
 	•	Relacionar métricas às perguntas: Garantir que os dados coletados sejam diretamente utilizáveis na análise de desempenho e geração de alertas.
 4.	Propor Inovações:
-	•	Sistema de gamificação: Criar um sistema que inclua pontuações, medalhas e recompensas visuais para engajar estagiários.
+	•	~~Sistema de gamificação: Criar um sistema que inclua pontuações, medalhas e recompensas visuais para engajar estagiários.~~
 	•	Análises de sentimento: Planejar a implementação de técnicas simples para identificar o estado emocional a partir das respostas.
 5.	Modelagem e Criação de Dados:
 	•	Modelar o banco de dados: Planejar a estrutura para armazenar informações dos estagiários, tutores, feedbacks e dados de gamificação.

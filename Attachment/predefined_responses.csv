@@ -1,0 +1,26 @@
+predefined_responses_ID;text;type
+5;Communication;Behavioral Skill
+6;Problem-solving;Behavioral Skill
+7;Teamwork;Behavioral Skill
+8;Adaptability;Behavioral Skill
+9;Time management;Behavioral Skill
+10;Asking questions;Reason for Communication
+11;Reporting bugs;Reason for Communication
+12;Requesting feedback;Reason for Communication
+13;Helping the team;Reason for Communication
+14;Technical skills;Reason for Communication
+15;Communication;Reason for Communication
+16;Time management;Reason for Communication
+17;C#;Skills
+18;React;Skills
+19;Git;Skills
+20;SQL;Skills
+21;Python;Skills
+22;Power BI;Skills
+23;CSS;Skills
+24;Javascript;Skills
+28;Node;Skills
+25;Power outage;Interruptions
+26;Unplanned meeting;Interruptions
+27;Illness;Interruptions
+29;Equipment issues;Interruptions

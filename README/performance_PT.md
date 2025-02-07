@@ -1,6 +1,14 @@
-## Metodologia de Cálculo de Performance
+# **Metodologia de Medidor de Performance**
 
-A performance dos estagiários é determinada com base nos seguintes indicadores, sendo que cada um deles recebe uma pontuação de 1 a 5:
+## **Introdução**
+
+A medição da performance dos estagiários é essencial para o acompanhamento contínuo do seu desenvolvimento e para a maximização do sucesso das tarefas atribuídas. Para obter uma visão precisa e justa do desempenho de cada estagiário, foram definidos uma série de indicadores chave que abrangem aspectos fundamentais do trabalho, como a conclusão de tarefas, a eficiência no uso do tempo, a comunicação e a complexidade das tarefas realizadas.
+
+Cada indicador é acompanhado por uma pontuação que varia de 1 a 5, permitindo uma avaliação objetiva e clara das competências do estagiário. O cálculo da **Pontuação Global de Performance** leva em conta a média das pontuações atribuídas a cada um dos indicadores, resultando em uma visão consolidada do desempenho.
+
+Este método de avaliação não apenas mede a eficácia e a eficiência do estagiário, mas também oferece insights sobre áreas que podem exigir melhorias. Ao utilizar esses indicadores, é possível identificar padrões de comportamento e desenvolver estratégias para otimizar os processos, melhorar a produtividade e fortalecer a colaboração dentro da equipa.
+
+A seguir, detalhamos os indicadores utilizados para calcular a performance e como cada um deles é ponderado para formar a avaliação global.
 
 ### 1. **Percentage of Completed Tasks (Percentagem de Tarefas Concluídas)**
 - **Descrição:** Avalia a relação entre as tarefas planeadas e as tarefas efectivamente concluídas. Este indicador é crucial para aferir a capacidade do estagiário em cumprir os objetivos estabelecidos dentro do prazo estipulado.

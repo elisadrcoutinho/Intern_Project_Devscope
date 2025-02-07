@@ -1,5 +1,12 @@
-# Documentação das Medidas DAX
+# **Documentação das Medidas DAX**
 
+## **Introdução**
+
+Esta documentação descreve as fórmulas DAX utilizadas para calcular as métricas no projeto de monitoramento de performance e análise do desempenho dos estagiários. As métricas são baseadas em respostas obtidas através de questionários diários, onde os estagiários fornecem informações sobre suas atividades, tempo gasto em tarefas, dificuldades enfrentadas e sentimentos relacionados ao desempenho.
+
+As fórmulas DAX aqui apresentadas são divididas em diferentes categorias de cálculos: contagem de respostas booleanas, médias por indicador, cálculos percentuais, pontuação de métricas e a avaliação final da performance. Estas fórmulas foram projetadas para fornecer insights detalhados sobre a eficiência das tarefas, a complexidade do trabalho, as interrupções, a comunicação e o sentimento dos estagiários.
+
+Cada seção descreve uma fórmula específica, com explicações detalhadas de como cada métrica é calculada e sua importância para o acompanhamento do desempenho dos estagiários no projeto.
 ## 1. Contagem de Respostas Booleanas
 
 ### **No**

@@ -1,93 +1,93 @@
-# **README - Intern Performance Analysis**
+# **README - Análise de Performance de Estagiários**
 
-## **Project Objective**
+## **Objetivo do Projeto**
 
-The goal of this project is to measure and track the progress and performance of interns throughout their learning journey. Through a daily questionnaire platform, we aim to identify areas of improvement, measure performance, and analyze the overall performance and progress of each intern based on the collected metrics. The platform is designed to be simple and straightforward, facilitating data collection without overwhelming interns with lengthy or complex questionnaires.
+Este projeto tem como objetivo medir e acompanhar a evolução e o desempenho dos estagiários durante sua jornada de aprendizado. Através de uma plataforma de questionário diária, buscamos identificar as áreas de melhoria, medir o desempenho e analisar a performance e o desempenho geral de cada estagiário, com base nas métricas coletadas. A plataforma foi projetada para ser simples e objetiva, facilitando a coleta de dados sem sobrecarregar os estagiários com questionários longos ou complexos.
 
-## **Problem to Be Solved**
+## **Problema a Ser Resolvido**
 
-Interns often face challenges during their learning journeys. In order for their mentors to intervene effectively, it is necessary to quickly measure the performance of interns and identify when they are facing difficulties, how much additional time they need to complete tasks, how they are managing planned and completed tasks, and the complexity level of the tasks assigned. The challenge is to find an efficient and practical way to gather this information without compromising the intern's experience or overloading the data analysis process.
+Estagiários frequentemente enfrentam desafios durante suas jornadas de aprendizado. Para que seus tutores possam intervir de forma eficaz, é necessário medir rapidamente o desempenho dos estagiários e identificar quando eles estão enfrentando dificuldades, qual o tempo adicional que precisam para realizar tarefas, como estão gerenciando as tarefas planejadas e completadas, e o nível de complexidade das tarefas que estão sendo atribuídas. O desafio é encontrar um meio eficiente e prático de coletar essas informações, de forma a não comprometer a experiência do estagiário nem sobrecarregar o processo de análise de dados.
 
-## **Developed Solution**
+## **Solução Desenvolvida**
 
-The solution is based on the development of a web platform that collects daily data from interns through a structured questionnaire. The questions are closed-ended (with multiple-choice or single selection options), ensuring speed and objectivity in completion, while providing relevant data for analysis. The areas assessed include:
-- **Technical Skills**: Evaluation of the intern's ability to perform tasks related to technical knowledge, tracking the additional time needed and the complexity of the tasks assigned.
-- **Behavioral Skills**: Measurement of the intern's behavior, including task management (planned and completed), identifying difficulties faced, and the ability to handle interruptions during task execution.
-- **Communication**: Analysis of the time spent on communication and the intern's overall sentiment towards their performance, providing insights on how interaction and information exchange impact their progress.
+A solução foi baseada no desenvolvimento de uma plataforma web que coleta dados diários dos estagiários por meio de um questionário estruturado. As perguntas são fechadas (com opções de múltipla escolha ou seleção única), garantindo agilidade e objetividade no preenchimento, ao mesmo tempo que fornecem dados relevantes para análise. As áreas avaliadas incluem:
+- **Habilidades Técnicas**: Avaliação da capacidade do estagiário em executar tarefas relacionadas a conhecimentos técnicos, monitorando o tempo adicional necessário e a complexidade das tarefas atribuídas.
+- **Habilidades Comportamentais**: Medição do comportamento do estagiário, incluindo a gestão de tarefas planejadas e concluídas, identificação de dificuldades enfrentadas, e a habilidade de lidar com interrupções durante a execução das tarefas.
+- **Comunicação**: Análise do tempo gasto em comunicação e do sentimento geral do estagiário em relação ao seu desempenho, proporcionando uma visão sobre como a interação e a troca de informações impactam sua evolução.
 
-This information is analyzed in Power BI, with an interactive dashboard presenting three main data visualization pages:
-1. **Individual Performance**: Displays the performance of each intern in relation to technical skills, task management, difficulties, and communication through interactive charts.
-2. **Overview of Metrics**: Shows the averages of key metrics, such as additional time, overall sentiment on performance, and totals for difficulties and interruptions encountered.
-3. **Intern Ranking**: Ranks the interns based on their scores across various metrics, using DAX measures to calculate overall performance and progress.
+Essas informações são analisadas em Power BI, com um dashboard interativo que apresenta três páginas principais de visualização de dados:
+1. **Performance Individual**: Apresenta o desempenho de cada estagiário em relação às habilidades técnicas, gestão de tarefas, dificuldades e comunicação, por meio de gráficos interativos.
+2. **Visão Geral das Métricas**: Exibe as médias das principais métricas, como tempo adicional, sentimento geral sobre o desempenho, e os totais de dificuldades e interrupções enfrentadas.
+3. **Ranking dos Estagiários**: Classifica os estagiários conforme suas pontuações em diversas métricas, utilizando medidas DAX para calcular a performance global e a evolução.
 
-## **Data Structure**
+## **Estrutura de Dados**
 
-The database is structured into four main tables, ensuring the organization and integrity of the collected data:
-1. **Questions**: Contains the questions from the questionnaire asked to the interns.
-2. **Responses**: Stores the responses from the interns, associating each one with the corresponding question.
-3. **Users**: Contains information about the interns, such as identification, name, and other relevant characteristics.
-4. **Predefined Responses**: Defines the possible answers for each question, including boolean, numeric, or scale values (such as the Likert scale from 1 to 5). Additionally, some questions may have text responses, such as a description of technical skills. The IDs are used to associate responses with their corresponding questions, ensuring that textual or descriptive answers are correctly recorded and analyzed.
+A base de dados foi estruturada em quatro tabelas principais, garantindo a organização e a integridade dos dados coletados:
+1. **Perguntas**: Contém as perguntas do questionário que são feitas aos estagiários.
+2. **Respostas**: Armazena as respostas dos estagiários, associando cada uma às perguntas correspondentes.
+3. **Usuários**: Contém informações sobre os estagiários, como identificação, nome e outras características relevantes.
+4. **Respostas Pré-definidas**: Define as respostas possíveis para cada pergunta, incluindo valores booleanos, numéricos ou escalas (como a escala Likert de 1 a 5). Além disso, algumas perguntas podem ter respostas em texto, como a descrição das habilidades técnicas. Os IDS são usadas para associar as respostas às perguntas correspondentes, garantindo que as respostas textuais ou descritivas sejam corretamente registradas e analisadas.
 
-## **Relational Model**
+## **Modelo Relacional**
 
-The relational model of the database is described by the following tables and their relationships:
+O modelo relacional da base de dados é descrito pelas seguintes tabelas e suas relações:
 
-- **Questions Table**:
-  - `questionID` (PK): Unique identifier for each question.
-  - `question_text`: The explanatory text of the question.
-  - `options`: Type of answer (numeric, boolean, Likert).
+- **Tabela Perguntas**:
+  - perguntaID (PK): Identificador único para cada pergunta.
+  - texto_pergunta: Texto explicativo da pergunta.
+  - opcoes: Tipo de resposta (númerica,boleana, Likert).
 
-- **Responses Table**:
-  - `responseID` (PK): Unique identifier for each response.
-  - `userID` (FK): Foreign key referencing the Users table.
-  - `questionID` (FK): Foreign key referencing the Questions table.
-  - `user_id` (FK): Foreign key referencing the Users table.
-  - `response`: Answer given by the intern (could be text or number depending on the question).
-  - `predefinedID`: Foreign key referencing the Predefined Responses table.
+- **Tabela Respostas**:
+  - respostaID (PK): Identificador único para cada resposta.
+  - usuarioID (FK): Chave estrangeira referenciando a tabela Usuários.
+  - perguntaID (FK): Chave estrangeira referenciando a tabela Perguntas.
+  - id_usuario (FK): Chave estrangeira referenciando a tabela Usuários.
+  - resposta: Resposta dada pelo estagiário (pode ser texto ou número, dependendo da pergunta).
+  - predefinidaID: Chave estrangeira referenciando a tabela Respostas Pré-definidas.
 
-- **Users Table**:
-  - `userID` (PK): Unique identifier for each intern.
-  - `name`: Name of the intern.
-  - `type`: Type (intern, mentor, or administrator). (For future implementation)
-  - `password`: Intern's password.
-  - `email`: Intern's email.
-  - `birth_date`: Intern's birthdate.
-  - `project`: Name of the project the intern is involved in. (For future implementation)
+- **Tabela Usuários**:
+  - usuarioID (PK): Identificador único para cada estagiário.
+  - nome: Nome do estagiário.
+  - tipo: Tipo: estagiário, tutor ou administardor. (Para implementação futura)
+  - password: Palavra-passe do estagiário.
+  - email: E-mail do estagiário.
+  - data_nascimento: Data de nascimento do estagiário.
+  - projeto: Nome do projeto em que o estagiário está envolvido. (Para implementação futura)
 
-- **Predefined Responses Table**:
-  - `predefined_responseID` (PK): Unique identifier for each predefined response option.
-  - `text`: Description of the response option.
-  - `type`: Related area (For future implementation)
+- **Tabela Respostas Pré-definidas**:
+  - resposta_predefinidaID (PK): Identificador único para cada opção de resposta.
+  - texto: Descrição da opção de resposta.
+  - tipo: Área relacionada (Para implementação futura)
 
-This relational model describes the primary and foreign keys that ensure data integrity and connectivity, making it easy to understand the relationships between the tables.
+Esse modelo relacional descreve as chaves primárias e estrangeiras que garantem a integridade e interconectividade dos dados, permitindo um fácil entendimento das relações entre as tabelas.
 
-## **Technologies Used**
+## **Tecnologias Utilizadas**
 
-- **Website**: HTML, CSS, Node.js, and React were used for the front-end of the questionnaire platform, ensuring a simple, dynamic, and intuitive interface.
-- **API**: An API was created using Node.js to integrate the back-end with the database and connect the front-end to the back-end, ensuring efficient communication between the user interface and the database.
-- **Database**: MongoDB was used to store the responses of the interns, while SQL was used to organize and structure the data related to the questions, ensuring efficient modeling, collection, and querying of data.
-- **Data Analysis and Visualization**: Power BI was used for data analysis and visualization, with an interactive dashboard that allows users to explore data in an intuitive way.
-- **DAX**: Used in Power BI to calculate metrics and scores for interns based on the data collected from the questionnaire, offering insights into intern performance.
+- **Website**: HTML, CSS, Node.js e React foram utilizados para o front-end do questionário, garantindo uma interface simples, dinâmica e intuitiva.
+- **API**: Uma API foi criada utilizando Node.js para integrar o back-end ao banco de dados, além de conectar o front-end ao back-end, garantindo a comunicação eficiente entre a interface do usuário e a base de dados.
+- **Banco de Dados**: MongoDB foi utilizado para armazenar as respostas dos estagiários, enquanto SQL foi empregado para a organização e estruturação dos dados relacionados às perguntas, garantindo modelagem, coleta e consulta eficientes.
+- **Análise de Dados e Visualização**: Power BI foi utilizado para análise e visualização dos dados, com um dashboard interativo que permite ao usuário explorar os dados de forma intuitiva.
+- **DAX**: Utilizado no Power BI para o cálculo das métricas e pontuações dos estagiários, baseando-se nos dados coletados pelo questionário e oferecendo insights sobre o desempenho dos estagiários.
 
-## **Next Steps**
-- **Platform Improvements**: Based on feedback from interns and mentors, improvements can be made to the interface and the questions in the questionnaire to ensure a more effective experience.
-- **Integration with Other Systems**: There are plans to integrate data collection directly with intern management systems, allowing a continuous flow of data without the need for manual data entry.
-- **Expansion of Metrics**: The set of metrics may be expanded to include other areas of performance evaluation, such as interpersonal skills and long-term development.
+## **Próximos Passos**
+- **Melhorias na Plataforma**: Com base no feedback de estagiários e tutores, será possível fazer melhorias na interface e nas perguntas do questionário, visando uma experiência ainda mais eficaz.
+- **Integração com Outros Sistemas**: Planeja-se integrar a coleta de dados diretamente com sistemas de gestão de estagiários, permitindo um fluxo contínuo de dados sem a necessidade de inserções manuais.
+- **Expansão das Métricas**: O conjunto de métricas pode ser expandido para incluir outras áreas de avaliação de desempenho, como habilidades interpessoais e evolução ao longo do tempo.
 
-## **Conclusion**
+## **Conclusão**
 
-This project provides an effective and efficient way to measure the performance and progress of interns, providing valuable insights for early intervention by mentors. By implementing an interactive dashboard, managers can track intern progress, identify areas of improvement, and make quick adjustments to ensure continuous development.
+Este projeto proporciona uma maneira eficaz e eficiente de medir o desempenho e a evolução dos estagiários, fornecendo informações valiosas para a intervenção precoce dos tutores. Com a implementação de um dashboard interativo, os gestores podem monitorar o progresso dos estagiários, identificar áreas de melhoria e realizar ajustes rápidos para garantir a evolução contínua dos mesmos.
 
 ---
 
-## **Appendices**
+## **Anexos**
 
-You will find the appendices that complement the analysis and implementation of the project:
+Você encontrará os anexos que complementam a análise e a implementação do projeto:
 
-1. **Appendix 1: DAX Measures**  
-   This appendix contains the DAX expressions used to calculate the intern performance metrics, such as calculating global performance, intern progress over time, and the overall ranking. These measures are crucial for interactive visualization in Power BI and for generating detailed performance reports.
+1. **Anexo 1: Medidas DAX**  
+   Este anexo contém as expressões DAX utilizadas para calcular as métricas de desempenho dos estagiários, como o cálculo da performance global, a evolução de cada estagiário ao longo do tempo e o ranking geral. Essas medidas são cruciais para a visualização interativa no Power BI e para a geração de relatórios detalhados sobre o desempenho.
 
-2. **Appendix 2: Performance Metric**  
-   The performance metric presents a comprehensive formula that quantitatively and qualitatively analyzes interns' responses, providing an overview of areas for improvement for each intern. The appendix details how this metric was configured in Power BI to accurately reflect the intern's progress.
+2. **Anexo 2: Medidor de Desempenho**  
+   O medidor de desempenho apresenta uma fórmula abrangente que analisa as respostas dos estagiários de forma quantitativa e qualitativa, proporcionando uma visão geral das áreas de melhoria para cada estagiário. O anexo detalha como esse medidor foi configurado no Power BI para refletir com precisão o progresso dos estagiários.
 
-These appendices are important for understanding how the metrics are calculated and how intern performance is monitored over time, serving as a basis for adjustments in the learning process and mentor interventions.
+Esses anexos são importantes para compreender a forma como as métricas são calculadas e como o desempenho dos estagiários é monitorado ao longo do tempo, servindo como base para ajustes no processo de aprendizado e intervenção dos tutores.

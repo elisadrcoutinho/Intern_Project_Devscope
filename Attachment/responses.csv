@@ -1,4 +1,4 @@
-PredefinedResponseID;UserID;QuestionID;LikertResponse;BooleanResponse;TimeResponse;TaskResponse;Date;PredefinedAnswerID
+ResponseID;UserID;QuestionID;LikertResponse;BooleanResponse;TimeResponse;TaskResponse;Date;PredefinedAnswerID
 1;1;1;;;;6;13/01/2025;
 2;1;2;;;;6;13/01/2025;
 3;1;3;;0;;;13/01/2025;
